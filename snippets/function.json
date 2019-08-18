@@ -1,1241 +1,1962 @@
-{
-    "abs": {
-      "prefix": "abs",
-      "body": [
-          "abs(${1})"
-      ],
-      "description": "abs-function"
-  },
-    "anyalnum": {
-      "prefix": "anyalnum",
-      "body": [
-          "anyalnum(${1})"
-      ],
-      "description": "anyalnum-function"
-  },
-    "anyalpha": {
-      "prefix": "anyalpha",
-      "body": [
-          "anyalpha(${1})"
-      ],
-      "description": "anyalpha-function"
-  },
-    "anycntrl": {
-      "prefix": "anycntrl",
-      "body": [
-          "anycntrl(${1})"
-      ],
-      "description": "anycntrl-function"
-  },
-    "anydigit": {
-      "prefix": "anydigit",
-      "body": [
-          "anydigit(${1})"
-      ],
-      "description": "anydigit-function"
-  },
-    "anyprint": {
-      "prefix": "anyprint",
-      "body": [
-          "anyprint(${1})"
-      ],
-      "description": "anyprint-function"
-  },
-    "anypunct": {
-      "prefix": "anypunct",
-      "body": [
-          "anypunct(${1})"
-      ],
-      "description": "anypunct-function"
-  },
-    "anyspace": {
-      "prefix": "anyspace",
-      "body": [
-          "anyspace(${1})"
-      ],
-      "description": "anyspace-function"
-  },
-    "anyupper": {
-      "prefix": "anyupper",
-      "body": [
-          "anyupper(${1})"
-      ],
-      "description": "anyupper-function"
-  },
-    "attrc": {
-      "prefix": "attrc",
-      "body": [
-          "attrc(${1})"
-      ],
-      "description": "attrc-function"
-  },
-    "attrn": {
-      "prefix": "attrn",
-      "body": [
-          "attrn(${1})"
-      ],
-      "description": "attrn-function"
-  },
-    "cat": {
-      "prefix": "cat",
-      "body": [
-          "cat(${1})"
-      ],
-      "description": "cat-function"
-  },
-    "catq": {
-      "prefix": "catq",
-      "body": [
-          "catq(${1})"
-      ],
-      "description": "catq-function"
-  },
-    "cats": {
-      "prefix": "cats",
-      "body": [
-          "cats(${1})"
-      ],
-      "description": "cats-function"
-  },
-    "catt": {
-      "prefix": "catt",
-      "body": [
-          "catt(${1})"
-      ],
-      "description": "catt-function"
-  },
-    "catx": {
-      "prefix": "catx",
-      "body": [
-          "catx(${1})"
-      ],
-      "description": "catx-function"
-  },
-    "ceil": {
-      "prefix": "ceil",
-      "body": [
-          "ceil(${1})"
-      ],
-      "description": "ceil-function"
-  },
-    "cmiss": {
-      "prefix": "cmiss",
-      "body": [
-          "cmiss(${1})"
-      ],
-      "description": "cmiss-function"
-  },
-    "coalesce": {
-      "prefix": "coalesce",
-      "body": [
-          "coalesce(${1})"
-      ],
-      "description": "coalesce-function"
-  },
-    "coalescec": {
-      "prefix": "coalescec",
-      "body": [
-          "coalescec(${1})"
-      ],
-      "description": "coalescec-function"
-  },
-    "compare": {
-      "prefix": "compare",
-      "body": [
-          "compare(${1})"
-      ],
-      "description": "compare-function"
-  },
-    "compbl": {
-      "prefix": "compbl",
-      "body": [
-          "compbl(${1})"
-      ],
-      "description": "compbl-function"
-  },
-    "compged": {
-      "prefix": "compged",
-      "body": [
-          "compged(${1})"
-      ],
-      "description": "compged-function"
-  },
-    "complev": {
-      "prefix": "complev",
-      "body": [
-          "complev(${1})"
-      ],
-      "description": "complev-function"
-  },
-    "compress": {
-      "prefix": "compress",
-      "body": [
-          "compress(${1})"
-      ],
-      "description": "compress-function"
-  },
-    "count": {
-      "prefix": "count",
-      "body": [
-          "count(${1})"
-      ],
-      "description": "count-function"
-  },
-    "countc": {
-      "prefix": "countc",
-      "body": [
-          "countc(${1})"
-      ],
-      "description": "countc-function"
-  },
-    "countw": {
-      "prefix": "countw",
-      "body": [
-          "countw(${1})"
-      ],
-      "description": "countw-function"
-  },
-    "date": {
-      "prefix": "date",
-      "body": [
-          "date(${1})"
-      ],
-      "description": "date-function"
-  },
-    "datetime": {
-      "prefix": "datetime",
-      "body": [
-          "datetime(${1})"
-      ],
-      "description": "datetime-function"
-  },
-    "day": {
-      "prefix": "day",
-      "body": [
-          "day(${1})"
-      ],
-      "description": "day-function"
-  },
-    "dsname": {
-      "prefix": "dsname",
-      "body": [
-          "dsname(${1})"
-      ],
-      "description": "dsname-function"
-  },
-    "exist": {
-      "prefix": "exist",
-      "body": [
-          "exist(${1})"
-      ],
-      "description": "exist-function"
-  },
-    "exp": {
-      "prefix": "exp",
-      "body": [
-          "exp(${1})"
-      ],
-      "description": "exp-function"
-  },
-    "fetch": {
-      "prefix": "fetch",
-      "body": [
-          "fetch(${1})"
-      ],
-      "description": "fetch-function"
-  },
-    "fileexist": {
-      "prefix": "fileexist",
-      "body": [
-          "fileexist(${1})"
-      ],
-      "description": "fileexist-function"
-  },
-    "filename": {
-      "prefix": "filename",
-      "body": [
-          "filename(${1})"
-      ],
-      "description": "filename-function"
-  },
-    "fileref": {
-      "prefix": "fileref",
-      "body": [
-          "fileref(${1})"
-      ],
-      "description": "fileref-function"
-  },
-    "find": {
-      "prefix": "find",
-      "body": [
-          "find(${1})"
-      ],
-      "description": "find-function"
-  },
-    "findc": {
-      "prefix": "findc",
-      "body": [
-          "findc(${1})"
-      ],
-      "description": "findc-function"
-  },
-    "findw": {
-      "prefix": "findw",
-      "body": [
-          "findw(${1})"
-      ],
-      "description": "findw-function"
-  },
-    "finfo": {
-      "prefix": "finfo",
-      "body": [
-          "finfo(${1})"
-      ],
-      "description": "finfo-function"
-  },
-    "finv": {
-      "prefix": "finv",
-      "body": [
-          "finv(${1})"
-      ],
-      "description": "finv-function"
-  },
-    "floor": {
-      "prefix": "floor",
-      "body": [
-          "floor(${1})"
-      ],
-      "description": "floor-function"
-  },
-    "floorz": {
-      "prefix": "floorz",
-      "body": [
-          "floorz(${1})"
-      ],
-      "description": "floorz-function"
-  },
-    "fopen": {
-      "prefix": "fopen",
-      "body": [
-          "fopen(${1})"
-      ],
-      "description": "fopen-function"
-  },
-    "hour": {
-      "prefix": "hour",
-      "body": [
-          "hour(${1})"
-      ],
-      "description": "hour-function"
-  },
-    "ifc": {
-      "prefix": "ifc",
-      "body": [
-          "ifc(${1})"
-      ],
-      "description": "ifc-function"
-  },
-    "ifn": {
-      "prefix": "ifn",
-      "body": [
-          "ifn(${1})"
-      ],
-      "description": "ifn-function"
-  },
-    "index": {
-      "prefix": "index",
-      "body": [
-          "index(${1})"
-      ],
-      "description": "index-function"
-  },
-    "indexc": {
-      "prefix": "indexc",
-      "body": [
-          "indexc(${1})"
-      ],
-      "description": "indexc-function"
-  },
-    "indexw": {
-      "prefix": "indexw",
-      "body": [
-          "indexw(${1})"
-      ],
-      "description": "indexw-function"
-  },
-    "input": {
-      "prefix": "input",
-      "body": [
-          "input(${1})"
-      ],
-      "description": "input-function"
-  },
-    "inputc": {
-      "prefix": "inputc",
-      "body": [
-          "inputc(${1})"
-      ],
-      "description": "inputc-function"
-  },
-    "inputn": {
-      "prefix": "inputn",
-      "body": [
-          "inputn(${1})"
-      ],
-      "description": "inputn-function"
-  },
-    "int": {
-      "prefix": "int",
-      "body": [
-          "int(${1})"
-      ],
-      "description": "int-function"
-  },
-    "intck": {
-      "prefix": "intck",
-      "body": [
-          "intck(${1})"
-      ],
-      "description": "intck-function"
-  },
-    "intnx": {
-      "prefix": "intnx",
-      "body": [
-          "intnx(${1})"
-      ],
-      "description": "intnx-function"
-  },
-    "is8601_convert": {
-      "prefix": "is8601_convert",
-      "body": [
-          "call is8601_convert(${1})"
-      ],
-      "description": "is8601_convert-function"
-  },
-    "left": {
-      "prefix": "left",
-      "body": [
-          "left(${1})"
-      ],
-      "description": "left-function"
-  },
-    "length": {
-      "prefix": "length",
-      "body": [
-          "length(${1})"
-      ],
-      "description": "length-function"
-  },
-    "lengthc": {
-      "prefix": "lengthc",
-      "body": [
-          "lengthc(${1})"
-      ],
-      "description": "lengthc-function"
-  },
-    "lengthm": {
-      "prefix": "lengthm",
-      "body": [
-          "lengthm(${1})"
-      ],
-      "description": "lengthm-function"
-  },
-    "lengthn": {
-      "prefix": "lengthn",
-      "body": [
-          "lengthn(${1})"
-      ],
-      "description": "lengthn-function"
-  },
-    "log": {
-      "prefix": "log",
-      "body": [
-          "log(${1})"
-      ],
-      "description": "log-function"
-  },
-    "log10": {
-      "prefix": "log10",
-      "body": [
-          "log10(${1})"
-      ],
-      "description": "log10-function"
-  },
-    "log1px": {
-      "prefix": "log1px",
-      "body": [
-          "log1px(${1})"
-      ],
-      "description": "log1px-function"
-  },
-    "log2": {
-      "prefix": "log2",
-      "body": [
-          "log2(${1})"
-      ],
-      "description": "log2-function"
-  },
-    "logbeta": {
-      "prefix": "logbeta",
-      "body": [
-          "logbeta(${1})"
-      ],
-      "description": "logbeta-function"
-  },
-    "max": {
-      "prefix": "max",
-      "body": [
-          "max(${1})"
-      ],
-      "description": "max-function"
-  },
-    "mdy": {
-      "prefix": "mdy",
-      "body": [
-          "mdy(${1})"
-      ],
-      "description": "mdy-function"
-  },
-    "mean": {
-      "prefix": "mean",
-      "body": [
-          "mean(${1})"
-      ],
-      "description": "mean-function"
-  },
-    "median": {
-      "prefix": "median",
-      "body": [
-          "median(${1})"
-      ],
-      "description": "median-function"
-  },
-    "min": {
-      "prefix": "min",
-      "body": [
-          "min(${1})"
-      ],
-      "description": "min-function"
-  },
-    "minute": {
-      "prefix": "minute",
-      "body": [
-          "minute(${1})"
-      ],
-      "description": "minute-function"
-  },
-    "missing": {
-      "prefix": "missing",
-      "body": [
-          "call missing(${1})"
-      ],
-      "description": "missing-function"
-  },
-    "missing2": {
-      "prefix": "missing2",
-      "body": [
-          "missing(${1})"
-      ],
-      "description": "missing2-function"
-  },
-    "mod": {
-      "prefix": "mod",
-      "body": [
-          "mod(${1})"
-      ],
-      "description": "mod-function"
-  },
-    "n": {
-      "prefix": "n",
-      "body": [
-          "n(${1})"
-      ],
-      "description": "n-function"
-  },
-    "nmiss": {
-      "prefix": "nmiss",
-      "body": [
-          "nmiss(${1})"
-      ],
-      "description": "nmiss-function"
-  },
-    "open": {
-      "prefix": "open",
-      "body": [
-          "open(${1})"
-      ],
-      "description": "open-function"
-  },
-    "ordinal": {
-      "prefix": "ordinal",
-      "body": [
-          "ordinal(${1})"
-      ],
-      "description": "ordinal-function"
-  },
-    "propcase": {
-      "prefix": "propcase",
-      "body": [
-          "propcase(${1})"
-      ],
-      "description": "propcase-function"
-  },
-    "prxchange2": {
-      "prefix": "prxchange2",
-      "body": [
-          "call prxchange(${1})"
-      ],
-      "description": "prxchange2-function"
-  },
-    "prxchange": {
-      "prefix": "prxchange",
-      "body": [
-          "prxchange(${1})"
-      ],
-      "description": "prxchange-function"
-  },
-    "prxdebug": {
-      "prefix": "prxdebug",
-      "body": [
-          "call prxdebug(${1})"
-      ],
-      "description": "prxdebug-function"
-  },
-    "prxfree": {
-      "prefix": "prxfree",
-      "body": [
-          "call prxfree(${1})"
-      ],
-      "description": "prxfree-function"
-  },
-    "prxmatch": {
-      "prefix": "prxmatch",
-      "body": [
-          "prxmatch(${1})"
-      ],
-      "description": "prxmatch-function"
-  },
-    "prxnext": {
-      "prefix": "prxnext",
-      "body": [
-          "call prxnext(${1})"
-      ],
-      "description": "prxnext-function"
-  },
-    "prxparen": {
-      "prefix": "prxparen",
-      "body": [
-          "prxparen(${1})"
-      ],
-      "description": "prxparen-function"
-  },
-    "prxparse": {
-      "prefix": "prxparse",
-      "body": [
-          "prxparse(${1})"
-      ],
-      "description": "prxparse-function"
-  },
-    "prxposn2": {
-      "prefix": "prxposn2",
-      "body": [
-          "call prxposn(${1})"
-      ],
-      "description": "prxposn2-function"
-  },
-    "prxposn": {
-      "prefix": "prxposn",
-      "body": [
-          "prxposn(${1})"
-      ],
-      "description": "prxposn-function"
-  },
-    "prxsubstr": {
-      "prefix": "prxsubstr",
-      "body": [
-          "call prxsubstr(${1})"
-      ],
-      "description": "prxsubstr-function"
-  },
-    "ptrlongadd": {
-      "prefix": "ptrlongadd",
-      "body": [
-          "ptrlongadd(${1})"
-      ],
-      "description": "ptrlongadd-function"
-  },
-    "put": {
-      "prefix": "put",
-      "body": [
-          "put(${1})"
-      ],
-      "description": "put-function"
-  },
-    "putc": {
-      "prefix": "putc",
-      "body": [
-          "putc(${1})"
-      ],
-      "description": "putc-function"
-  },
-    "putn": {
-      "prefix": "putn",
-      "body": [
-          "putn(${1})"
-      ],
-      "description": "putn-function"
-  },
-    "rank": {
-      "prefix": "rank",
-      "body": [
-          "rank(${1})"
-      ],
-      "description": "rank-function"
-  },
-    "ranuni": {
-      "prefix": "ranuni",
-      "body": [
-          "ranuni(${1})"
-      ],
-      "description": "ranuni-function"
-  },
-    "rename": {
-      "prefix": "rename",
-      "body": [
-          "rename(${1})"
-      ],
-      "description": "rename-function"
-  },
-    "round": {
-      "prefix": "round",
-      "body": [
-          "round(${1})"
-      ],
-      "description": "round-function"
-  },
-    "rounde": {
-      "prefix": "rounde",
-      "body": [
-          "rounde(${1})"
-      ],
-      "description": "rounde-function"
-  },
-    "roundz": {
-      "prefix": "roundz",
-      "body": [
-          "roundz(${1})"
-      ],
-      "description": "roundz-function"
-  },
-    "saving": {
-      "prefix": "saving",
-      "body": [
-          "saving(${1})"
-      ],
-      "description": "saving-function"
-  },
-    "scan2": {
-      "prefix": "scan2",
-      "body": [
-          "call scan(${1})"
-      ],
-      "description": "scan2-function"
-  },
-    "scan": {
-      "prefix": "scan",
-      "body": [
-          "scan(${1})"
-      ],
-      "description": "scan-function"
-  },
-    "sortc": {
-      "prefix": "sortc",
-      "body": [
-          "call sortc(${1})"
-      ],
-      "description": "sortc-function"
-  },
-    "sortn": {
-      "prefix": "sortn",
-      "body": [
-          "call sortn(${1})"
-      ],
-      "description": "sortn-function"
-  },
-    "soundex": {
-      "prefix": "soundex",
-      "body": [
-          "soundex(${1})"
-      ],
-      "description": "soundex-function"
-  },
-    "spedis": {
-      "prefix": "spedis",
-      "body": [
-          "spedis(${1})"
-      ],
-      "description": "spedis-function"
-  },
-    "sqrt": {
-      "prefix": "sqrt",
-      "body": [
-          "sqrt(${1})"
-      ],
-      "description": "sqrt-function"
-  },
-    "std": {
-      "prefix": "std",
-      "body": [
-          "std(${1})"
-      ],
-      "description": "std-function"
-  },
-    "stderr": {
-      "prefix": "stderr",
-      "body": [
-          "stderr(${1})"
-      ],
-      "description": "stderr-function"
-  },
-    "strip": {
-      "prefix": "strip",
-      "body": [
-          "strip(${1})"
-      ],
-      "description": "strip-function"
-  },
-    "substr": {
-      "prefix": "substr",
-      "body": [
-          "substr(${1})"
-      ],
-      "description": "substr-function"
-  },
-    "substrn": {
-      "prefix": "substrn",
-      "body": [
-          "substrn(${1})"
-      ],
-      "description": "substrn-function"
-  },
-    "sum": {
-      "prefix": "sum",
-      "body": [
-          "sum(${1})"
-      ],
-      "description": "sum-function"
-  },
-    "symget": {
-      "prefix": "symget",
-      "body": [
-          "symget(${1})"
-      ],
-      "description": "symget-function"
-  },
-    "symglobl": {
-      "prefix": "symglobl",
-      "body": [
-          "symglobl(${1})"
-      ],
-      "description": "symglobl-function"
-  },
-    "symlocal": {
-      "prefix": "symlocal",
-      "body": [
-          "symlocal(${1})"
-      ],
-      "description": "symlocal-function"
-  },
-    "symput": {
-      "prefix": "symput",
-      "body": [
-          "call symput(${1})"
-      ],
-      "description": "symput-function"
-  },
-    "symputx": {
-      "prefix": "symputx",
-      "body": [
-          "call symputx(${1})"
-      ],
-      "description": "symputx-function"
-  },
-    "sysexist": {
-      "prefix": "sysexist",
-      "body": [
-          "sysexist(${1})"
-      ],
-      "description": "sysexist-function"
-  },
-    "sysget": {
-      "prefix": "sysget",
-      "body": [
-          "sysget(${1})"
-      ],
-      "description": "sysget-function"
-  },
-    "today": {
-      "prefix": "today",
-      "body": [
-          "today(${1})"
-      ],
-      "description": "today-function"
-  },
-    "translate": {
-      "prefix": "translate",
-      "body": [
-          "translate(${1})"
-      ],
-      "description": "translate-function"
-  },
-    "transtrn": {
-      "prefix": "transtrn",
-      "body": [
-          "transtrn(${1})"
-      ],
-      "description": "transtrn-function"
-  },
-    "tranwrd": {
-      "prefix": "tranwrd",
-      "body": [
-          "tranwrd(${1})"
-      ],
-      "description": "tranwrd-function"
-  },
-    "trim": {
-      "prefix": "trim",
-      "body": [
-          "trim(${1})"
-      ],
-      "description": "trim-function"
-  },
-    "trimn": {
-      "prefix": "trimn",
-      "body": [
-          "trimn(${1})"
-      ],
-      "description": "trimn-function"
-  },
-    "trunc": {
-      "prefix": "trunc",
-      "body": [
-          "trunc(${1})"
-      ],
-      "description": "trunc-function"
-  },
-    "upcase": {
-      "prefix": "upcase",
-      "body": [
-          "upcase(${1})"
-      ],
-      "description": "upcase-function"
-  },
-    "varlen": {
-      "prefix": "varlen",
-      "body": [
-          "varlen(${1})"
-      ],
-      "description": "varlen-function"
-  },
-    "varname": {
-      "prefix": "varname",
-      "body": [
-          "varname(${1})"
-      ],
-      "description": "varname-function"
-  },
-    "varnum": {
-      "prefix": "varnum",
-      "body": [
-          "varnum(${1})"
-      ],
-      "description": "varnum-function"
-  },
-    "varray": {
-      "prefix": "varray",
-      "body": [
-          "varray(${1})"
-      ],
-      "description": "varray-function"
-  },
-    "varrayx": {
-      "prefix": "varrayx",
-      "body": [
-          "varrayx(${1})"
-      ],
-      "description": "varrayx-function"
-  },
-    "vartype": {
-      "prefix": "vartype",
-      "body": [
-          "vartype(${1})"
-      ],
-      "description": "vartype-function"
-  },
-    "verify": {
-      "prefix": "verify",
-      "body": [
-          "verify(${1})"
-      ],
-      "description": "verify-function"
-  },
-    "vformat": {
-      "prefix": "vformat",
-      "body": [
-          "vformat(${1})"
-      ],
-      "description": "vformat-function"
-  },
-    "vformatd": {
-      "prefix": "vformatd",
-      "body": [
-          "vformatd(${1})"
-      ],
-      "description": "vformatd-function"
-  },
-    "vformatdx": {
-      "prefix": "vformatdx",
-      "body": [
-          "vformatdx(${1})"
-      ],
-      "description": "vformatdx-function"
-  },
-    "vformatn": {
-      "prefix": "vformatn",
-      "body": [
-          "vformatn(${1})"
-      ],
-      "description": "vformatn-function"
-  },
-    "vformatnx": {
-      "prefix": "vformatnx",
-      "body": [
-          "vformatnx(${1})"
-      ],
-      "description": "vformatnx-function"
-  },
-    "vformatw": {
-      "prefix": "vformatw",
-      "body": [
-          "vformatw(${1})"
-      ],
-      "description": "vformatw-function"
-  },
-    "vformatwx": {
-      "prefix": "vformatwx",
-      "body": [
-          "vformatwx(${1})"
-      ],
-      "description": "vformatwx-function"
-  },
-    "vformatx": {
-      "prefix": "vformatx",
-      "body": [
-          "vformatx(${1})"
-      ],
-      "description": "vformatx-function"
-  },
-    "vinarray": {
-      "prefix": "vinarray",
-      "body": [
-          "vinarray(${1})"
-      ],
-      "description": "vinarray-function"
-  },
-    "vinarrayx": {
-      "prefix": "vinarrayx",
-      "body": [
-          "vinarrayx(${1})"
-      ],
-      "description": "vinarrayx-function"
-  },
-    "vinformat": {
-      "prefix": "vinformat",
-      "body": [
-          "vinformat(${1})"
-      ],
-      "description": "vinformat-function"
-  },
-    "vinformatd": {
-      "prefix": "vinformatd",
-      "body": [
-          "vinformatd(${1})"
-      ],
-      "description": "vinformatd-function"
-  },
-    "vinformatdx": {
-      "prefix": "vinformatdx",
-      "body": [
-          "vinformatdx(${1})"
-      ],
-      "description": "vinformatdx-function"
-  },
-    "vinformatn": {
-      "prefix": "vinformatn",
-      "body": [
-          "vinformatn(${1})"
-      ],
-      "description": "vinformatn-function"
-  },
-    "vinformatnx": {
-      "prefix": "vinformatnx",
-      "body": [
-          "vinformatnx(${1})"
-      ],
-      "description": "vinformatnx-function"
-  },
-    "vinformatw": {
-      "prefix": "vinformatw",
-      "body": [
-          "vinformatw(${1})"
-      ],
-      "description": "vinformatw-function"
-  },
-    "vinformatwx": {
-      "prefix": "vinformatwx",
-      "body": [
-          "vinformatwx(${1})"
-      ],
-      "description": "vinformatwx-function"
-  },
-    "vinformatx": {
-      "prefix": "vinformatx",
-      "body": [
-          "vinformatx(${1})"
-      ],
-      "description": "vinformatx-function"
-  },
-    "vlabel": {
-      "prefix": "vlabel",
-      "body": [
-          "vlabel(${1})"
-      ],
-      "description": "vlabel-function"
-  },
-    "vlabelx": {
-      "prefix": "vlabelx",
-      "body": [
-          "vlabelx(${1})"
-      ],
-      "description": "vlabelx-function"
-  },
-    "vlength": {
-      "prefix": "vlength",
-      "body": [
-          "vlength(${1})"
-      ],
-      "description": "vlength-function"
-  },
-    "vlengthx": {
-      "prefix": "vlengthx",
-      "body": [
-          "vlengthx(${1})"
-      ],
-      "description": "vlengthx-function"
-  },
-    "vname2": {
-      "prefix": "vname2",
-      "body": [
-          "call vname(${1})"
-      ],
-      "description": "vname2-function"
-  },
-    "vname": {
-      "prefix": "vname",
-      "body": [
-          "vname(${1})"
-      ],
-      "description": "vname-function"
-  },
-    "vnamex": {
-      "prefix": "vnamex",
-      "body": [
-          "vnamex(${1})"
-      ],
-      "description": "vnamex-function"
-  },
-    "vnext": {
-      "prefix": "vnext",
-      "body": [
-          "call vnext(${1})"
-      ],
-      "description": "vnext-function"
-  },
-    "vtype": {
-      "prefix": "vtype",
-      "body": [
-          "vtype(${1})"
-      ],
-      "description": "vtype-function"
-  },
-    "vtypex": {
-      "prefix": "vtypex",
-      "body": [
-          "vtypex(${1})"
-      ],
-      "description": "vtypex-function"
-  },
-    "vvalue": {
-      "prefix": "vvalue",
-      "body": [
-          "vvalue(${1})"
-      ],
-      "description": "vvalue-function"
-  },
-    "vvaluex": {
-      "prefix": "vvaluex",
-      "body": [
-          "vvaluex(${1})"
-      ],
-      "description": "vvaluex-function"
-  },
-    "week": {
-      "prefix": "week",
-      "body": [
-          "week(${1})"
-      ],
-      "description": "week-function"
-  },
-    "weekday": {
-      "prefix": "weekday",
-      "body": [
-          "weekday(${1})"
-      ],
-      "description": "weekday-function"
-  },
-    "whichc": {
-      "prefix": "whichc",
-      "body": [
-          "whichc(${1})"
-      ],
-      "description": "whichc-function"
-  },
-    "whichn": {
-      "prefix": "whichn",
-      "body": [
-          "whichn(${1})"
-      ],
-      "description": "whichn-function"
-  },
-    "year": {
-      "prefix": "year",
-      "body": [
-          "year(${1})"
-      ],
-      "description": "year-function"
-  },
-    "yieldp": {
-      "prefix": "yieldp",
-      "body": [
-          "yieldp(${1})"
-      ],
-      "description": "yieldp-function"
-  },
-    "yrdif": {
-      "prefix": "yrdif",
-      "body": [
-          "yrdif(${1})"
-      ],
-      "description": "yrdif-function"
-  }
+{   
+  "docLink": {
+  "prefix": "SASLINK",
+  "body": [
+      "https://documentation.sas.com/?cdcId=pgmsascdc&cdcVersion=9.4_3.3&docsetId=lefunctionsref&docsetTarget=titlepage.htm&locale=en"
+  ],
+  "description": "Link to the SAS Documentation on the functions"
+},  
+  "abs": {
+    "prefix": "abs",
+    "body": [
+        "abs(${1})"
+    ],
+    "description": "Returns the absolute value.\nABS(argument)"
+},
+  "allcomb":{
+    "prefix" :"allcomb",
+    "body": [
+        "allcomb($1, $2, $3)"        
+    ],
+    "description": ["Generates all combinations of the values of n variables taken k at a time in a minimal change order:\n ",
+                   "allcomb(count, k, variable-1, …, variable-n)"]
+},
+"allperm":{
+  "prefix" :"allperm",
+  "body": [
+      "allperm($1, $2, $3)"        
+  ],
+  "description": ["Generates all permutations of the values of several variables in a minimal change order:\n ",
+                 "allperm(count, variable-1 <,variable-2 ...>) "]
+},
+ 
+  "anyalnum": {
+    "prefix": "anyalnum",
+    "body": [
+        "anyalnum(${1})"
+    ],
+    "description": ["Searches a character string for an alphanumeric character, and returns the first position at which the character is found. :\n ",
+                    "anyalnum(string <,start>) "]
+},
+  "anyalpha": {
+    "prefix": "anyalpha",
+    "body": [
+        "anyalpha(${1})"
+    ],
+    "description": ["Searches a character string for an alphabetic character, and returns the first position at which the character is found.  :\n ",
+                    "anyalpha(string <,start>) "]
+},
+  "anycntrl": {
+    "prefix": "anycntrl",
+    "body": [
+        "anycntrl(${1})"
+    ],
+    "description": ["Searches a character string for a control character, and returns the first position at which that character is found. :\n ",
+                    "anycntrl(string <,start>) "]
+},
+"anydigit": {
+  "prefix": "anydigit",
+  "body": [
+      "anydigit(${1})"
+  ],
+  "description": ["Searches a character string for a digit, and returns the first position at which the digit is found. :\n ",
+                  "anydigit(string <,start>) "]
+},
+  "anyfirst": {
+    "prefix": "anyfirst",
+    "body": [
+        "anyfirst(${1})"
+    ],
+    "description": ["Searches a character string for a character that is valid as the first character in a SAS variable name under VALIDVARNAME=V7,\n",                 
+                    "and returns the first position at which that character is found.  :\n ",
+                    "anyfirst(string <,start>) "]
+},
+  "anygraph": {
+    "prefix": "anygraph",
+    "body": [
+        "anygraph(${1})"
+    ],
+    "description": ["Searches a character string for a graphical character, and returns the first position at which that character is found. \n",                 
+                    "anygraph(string <,start>) "]
+  },
+  "anylower": {
+    "prefix": "anylower",
+    "body": [
+        "anylower(${1})"
+    ],
+    "description": ["Searches a character string for a lowercase letter, and returns the first position at which the letter is found. \n",                 
+                    "anylower(string <,start>) "]
+  },    
+  "anyname": {
+    "prefix": "anyname",
+    "body": [
+        "anyname(${1})"
+    ],
+    "description": ["Searches a character string for a character that is valid in a SAS variable name under VALIDVARNAME=V7, \n",
+                    "and returns the first position at which that character is found. \n",                 
+                    "anyname(string <,start>) "]
+  },      
+  "anyprint": {
+    "prefix": "anyprint",
+    "body": [
+        "anyprint(${1})"
+    ],
+    "description": ["Searches a character string for a printable character, and returns the first position at which that character is found. \n",
+                    "anyprint(string <,start>)"]
+},
+  "anypunct": {
+    "prefix": "anypunct",
+    "body": [
+        "anypunct(${1})"
+    ],
+    "description": ["Searches a character string for a punctuation character, and returns the first position at which that character is found. \n",
+                    "anypunct(string <,start>)"]
+},
+  "anyspace": {
+    "prefix": "anyspace",
+    "body": [
+        "anyspace(${1})"
+    ],
+    "description": ["Searches a character string for a whitespace character (blank, horizontal or vertical tab, carriage return, line feed, and form feed), \n",
+                    "and returns the first position at which that character is found.  \n",
+                    "anyspace(string <,start>)"]      
+},
+  "anyupper": {
+    "prefix": "anyupper",
+    "body": [
+        "anyupper(${1})"
+    ],
+    "description": ["Searches a character string for an uppercase letter, and returns the first position at which the letter is found.  \n",
+                    "anyupper(string <,start>)"]   
+},
+  "anyxdigit": {
+    "prefix": "anyxdigit",
+    "body": [
+        "anyxdigit(${1})"
+    ],
+    "description": ["Searches a character string for a hexadecimal character that represents a digit, and returns the first position at which that character is found. \n",
+                    "anyxdigit(string <,start>)"]   
+},  
+  "arcos": {
+    "prefix": "arcos",
+    "body": [
+        "arcos(${1})"
+    ],
+    "description": ["Returns the arccosine.\n",
+                    "arcos(string <,start>)"]   
+},
+  "attrc": {
+    "prefix": "attrc",
+    "body": [
+        "attrc(${1},$2)"
+    ],
+    "description": "Returns the value of a character attribute for a SAS data set.\nATTRC(data-set-id, attribute-name)  "
+},
+  "attrn": {
+    "prefix": "attrn",
+    "body": [
+        "attrn(${1},$2)"
+    ],
+    "description": "Returns the value of a numeric attribute for a SAS data set.\nATTRN(data-set-id, attribute-name)"
+},
+  "band": {
+    "prefix": "band",
+    "body": [
+        "BAND($1,$2)"
+    ],
+    "description": "Returns the bitwise logical AND of two arguments.\nBAND(argument-1, argument-2)"
+},  
+  "beta": {
+    "prefix": "beta",
+    "body": [
+        "beta($1,$2)"
+    ],
+    "description": "Returns the value of the beta function.\nBETA(a, b)"
+},    
+  "blshift": {
+    "prefix": "blshift",
+    "body": [
+        "blshift($1,$2)"
+    ],
+    "description": "Returns the bitwise logical left shift of two arguments.\nBLSHIFT(argument-1, argument-2)"
+},  
+  "bnot": {
+    "prefix": "bnot",
+    "body": [
+        "bnot($1,$2)"
+    ],
+    "description": "Returns the bitwise logical NOT of an argument.\nBNOT(argument)"
+},  
+  "bor": {
+    "prefix": "bnot",
+    "body": [
+        "bnot($1,$2)"
+    ],
+    "description": "Returns the bitwise logical OR of two arguments.\nBOR(argument-1, argument-2)"
+}, 
+  "brshift": {
+    "prefix": "brshift",
+    "body": [
+        "brshift($1,$2)"
+    ],
+    "description": "Returns the bitwise logical right shift of two arguments.\nBRSHIFT(argument-1, argument-2)"
+},   
+  "bxor": {
+    "prefix": "bxor",
+    "body": [
+        "bxor($1,$2)"
+    ],
+    "description": "Returns the bitwise logical EXCLUSIVE OR of two arguments.\nBXOR(argument-1, argument-2)"
+},      
+  "byte": {
+    "prefix": "byte",
+    "body": [
+        "byte($1)"
+    ],
+    "description": "Returns one character in the ASCII or EBCDIC collating sequence. \nBYTE(argument-1)"
+},         
+ "cat": {
+    "prefix": "cat",
+    "body": [
+        "cat(${1})"
+    ],
+    "description": "Does not remove leading or trailing blanks and returns a concatenated character string.\nCAT(item-1 <, …, item-n>) "
+},
+  "catq": {
+    "prefix": "catq",
+    "body": [
+        "catq(${1})"
+    ],
+    "description": ["Concatenates character and numeric values by using a delimiter to separate items and by adding quotation marks to strings that contain the delimiter.",
+                    "\nCATQ(modifiers <, delimiter>, item-1 <, …, item-n>) \n",
+                    "Modifier could be :1 or ',2 ,a or A,b or B,c or C,d or D,h or H,m or M,n or N,q or Q,s or S,t or T,x or X \n",
+                    "Read the SAS Documentation on the modifiers. Type SASLINK to show the documentation link."]
+},
+  "cats": {
+    "prefix": "cats",
+    "body": [
+        "cats(${1})"
+    ],
+    "description": "Removes leading and trailing blanks, and returns a concatenated character string.\nCATS(item-1 <, …, item-n>) "
+},
+  "catt": {
+    "prefix": "catt",
+    "body": [
+        "catt(${1})"
+    ],
+    "description": "Removes trailing blanks, and returns a concatenated character string.\nCATT(item-1 <, … item-n>)"
+},
+  "catx": {
+    "prefix": "catx",
+    "body": [
+        "catx(${1})"
+    ],
+    "description": "Removes leading and trailing blanks, inserts delimiters, and returns a concatenated character string.\nCATX(delimiter, item-1 <, ... item-n>)"
+},
+  "cdf": {
+    "prefix": "cdf",
+    "body": [
+        "cdf(${1})"
+    ],
+    "description": "Returns a value from a cumulative probability distribution.\nCDF(distribution, quantile <, parameter-1, …, parameter-k>)"
+},  
+  "ceil": {
+    "prefix": "ceil",
+    "body": [
+        "ceil(${1})"
+    ],
+    "description": "Returns the smallest integer that is greater than or equal to the argument, fuzzed to avoid unexpected floating-point results.\nCEIL(argument) "
+},
+  "ceilz": {
+    "prefix": "ceilz",
+    "body": [
+        "ceilz(${1})"
+    ],
+    "description": "Returns the smallest integer that is greater than or equal to the argument, using zero fuzzing. \nCEILZ(argument) "
+},  
+  "cexist": {
+    "prefix": "cexist",
+    "body": [
+        "cexist(${1})"
+    ],
+    "description": "Verifies the existence of a SAS catalog or SAS catalog entry. \nCEXIST(entry<, 'U'>) "
+},  
+  "char": {
+    "prefix": "char",
+    "body": [
+        "char($1,$2)"
+    ],
+    "description": "Returns a single character from a specified position in a character string.\nCHAR(string, position) "
+},        
+  "choosec": {
+    "prefix": "choosec",
+    "body": [
+        "choosec($1,$2)"
+    ],
+    "description": "Returns a character value that represents the results of choosing from a list of arguments. \nCHOOSEC(index-expression, selection-1 <, …selection-n>) "
+},          
+  "choosen": {
+    "prefix": "choosen",
+    "body": [
+        "choosen($1,$2)"
+    ],
+    "description": "Returns a numeric value that represents the results of choosing from a list of arguments.\nCHOOSEN(index-expression, selection-1 <, …selection-n>) "
+},     
+  "cinv": {
+    "prefix": "cinv",
+    "body": [
+        "cinv($1,$2)"
+    ],
+    "description": "Returns a quantile from the chi-square distribution.\nCINV(p, df<, nc>)"
+},      
+  "close": {
+    "prefix": "close",
+    "body": [
+        "close($1,$2)"
+    ],
+    "description": "Closes a SAS data set.\nCLOSE(data-set-id) "
+  },      
+  "cmiss": {
+    "prefix": "cmiss",
+    "body": [
+        "cmiss(${1})"
+    ],
+    "description": "Counts the number of missing arguments.\nCMISS(argument-1 <, argument-2,…>) "
+},
+  "cnonct": {
+    "prefix": "cnonct",
+    "body": [
+        "cnonct($1, $2, $3)"
+    ],
+    "description": "Returns the noncentrality parameter from a chi-square distribution.\nCNONCT(x, df, probability)"
+},  
+  "coalesce": {
+    "prefix": "coalesce",
+    "body": [
+        "coalesce(${1})"
+    ],
+    "description": "Returns the first nonmissing value from a list of numeric arguments.\nCOALESCE(argument-1<..., argument-n>)"
+},
+  "coalescec": {
+    "prefix": "coalescec",
+    "body": [
+        "coalescec(${1})"
+    ],
+    "description": "Returns the first nonmissing value from a list of character arguments.\nCOALESCEC(argument-1 < ..., argument-n>) "
+},
+  "collate": {
+    "prefix": "collate",
+    "body": [
+        "collate(${1})"
+    ],
+    "description": "Returns a character string in the ASCII or EBCDIC collating sequence.\nCOLLATE(start-position <, end-position>) | (start-position <, , length>)"
+},  
+  "comb": {
+    "prefix": "comb",
+    "body": [
+        "comb(${1})"
+    ],
+    "description": "Computes the number of combinations of n elements taken r at a time. \nCOMB(n, r)"
+},    
+  "compare": {
+    "prefix": "compare",
+    "body": [
+        "compare(${1})"
+    ],
+    "description": ["Returns the position of the leftmost character by which two strings differ, or returns 0 if there is no difference.\nCOMPARE(string-1, string-2 <, modifier(s)>)",
+                    "\nModifiers can be i or I,l or L,n or N,: (colon)\n",
+                    "for more information refer to the SAS Documentation"]
+},
+  "compbl": {
+    "prefix": "compbl",
+    "body": [
+        "compbl(${1})"
+    ],
+    "description": "Removes multiple blanks from a character string.\nCOMPBL(source)"
+},
+  "compfuzz": {
+    "prefix": "compfuzz",
+    "body": [
+        "compfuzz(${1})"
+    ],
+    "description": "Performs a fuzzy comparison of two numeric values.\nCOMPFUZZ(value-1, value-2 <, fuzz <, scale>>) "
+},  
+  "compged": {
+    "prefix": "compged",
+    "body": [
+        "compged(${1})"
+    ],
+    "description": "Returns the generalized edit distance between two strings.\nCOMPGED(string-1, string-2 <, cutoff> <, modifier(s)>) "
+},
+  "complev": {
+    "prefix": "complev",
+    "body": [
+        "complev(${1})"
+    ],
+    "description": "Returns the Levenshtein edit distance between two strings.\nCOMPLEV(string-1, string-2 <, cutoff> <, modifier(s)>) "
+},
+  "compress": {
+    "prefix": "compress",
+    "body": [
+        "compress(${1})"
+    ],
+    "description": "Returns a character string with specified characters removed from the original string.\nCOMPRESS(source <, characters> <, modifier(s)>) "
+},
+  "constant": {
+    "prefix": "constant",
+    "body": [
+        "constant(${1})"
+    ],
+    "description": "Computes machine and mathematical constants.\nCONSTANT(constant <, parameter>) "
+},  
+  "count": {
+    "prefix": "count",
+    "body": [
+        "count($1, $2)"
+    ],
+    "description": "Counts the number of times that a specified substring appears within a character string.\nCOUNT(string, substring <, modifier(s)>) "
+},
+  "countc": {
+    "prefix": "countc",
+    "body": [
+        "countc($1, $2)"
+    ],
+    "description": "Counts the number of characters that appear or do not appear in a list of characters.\nCOUNTC(string, character-list <, modifier(s)>) "
+},
+  "countw": {
+    "prefix": "countw",
+    "body": [
+        "countw(${1})"
+    ],
+    "description": "Counts the number of words in a character string.\nCOUNTW(<string> <, <character(s)> <, <modifier(s)>>>)"
+},
+  "DATDIF": {
+    "prefix": "DATDIF",
+    "body": [
+        "DATDIF($1,$2,$3)"
+    ],
+    "description": "Returns the number of days between two dates after computing the difference between the dates according to specified day count conventions.\nDATDIF(start-date, end-date, basis)"
+},
+  "date": {
+    "prefix": "date",
+    "body": [
+        "date()"
+    ],
+    "description": "Returns the current date as a SAS date value.\nDATE()"
+},
+  "datepart": {
+    "prefix": "datepart",
+    "body": [
+        "datepart(${1})"
+    ],
+    "description": "Extracts the date from a SAS datetime value.\nDATEPART(datetime) "
+},  
+  "datetime": {
+    "prefix": "datetime",
+    "body": [
+        "datetime()"
+    ],
+    "description": "Returns the current date and time of day as a SAS datetime value.\nDATETIME() "
+},
+  "day": {
+    "prefix": "day",
+    "body": [
+        "day(${1})"
+    ],
+    "description": "Returns the day of the month from a SAS date value.\nDAY(date)"
+},
+  "dclose": {
+    "prefix": "dclose",
+    "body": [
+        "dclose(${1})"
+    ],
+    "description": "Closes a directory that was opened by the DOPEN function.\nDCLOSE(directory-id)"
+},  
+  "dcreate": {
+    "prefix": "dcreate",
+    "body": [
+        "dcreate(${1})"
+    ],
+    "description": "Returns the complete pathname of a new, external directory.\nDCREATE(directory-name <, parent-directory>) "
+},    
+  "dequote": {
+    "prefix": "dequote",
+    "body": [
+        "dequote(${1})"
+    ],
+    "description": ["Removes matching quotation marks from a character string that begins with a quotation mark, and deletes all\n",
+                    "characters to the right of the closing quotation mark\nDEQUOTE(string) "
+                   ]
+},    
+  "dhms": {
+    "prefix": "dhms",
+    "body": [
+        "dhms($1,$2,$3,$4)"
+    ],
+    "description": "Returns a SAS datetime value from date, hour, minute, and second values.\nDHMS(date, hour, minute, second)"
+},    
+  "dif": {
+    "prefix": "dif",
+    "body": [
+        "dif($1)"
+    ],
+    "description": "Returns differences between an argument and its nth lag.\nDIF<n> (argument)"
+},   
+  "dim": {
+    "prefix": "dim",
+    "body": [
+        "dim($1)"
+    ],
+    "description": "Returns the number of elements in an array.\nDIM<n> (array-name)\nDIM(array-name, bound-n) "
+},   
+  "dinfo": {
+    "prefix": "dinfo",
+    "body": [
+        "DINFO($1, $2)"
+    ],
+    "description": "Returns information about a directory.\nDINFO(directory-id, information-item)"
+},    
+  "dlgcdir": {
+    "prefix": "dlgcdir",
+    "body": [
+        "dlgcdir($1)"
+    ],
+    "description": "Sets the working directory.\nDLGCDIR(<working_directory>)"
+},    
+  "dnum": {
+    "prefix": "dnum",
+    "body": [
+        "dnum($1)"
+    ],
+    "description": "Returns the number of members in a directory.\nDNUM(directory-id)"
+},    
+  "dopen": {
+    "prefix": "dopen",
+    "body": [
+        "dopen($1)"
+    ],
+    "description": "Opens a directory, and returns a directory identifier value. \nDOPEN(fileref)"
+},  
+  "doptname": {
+    "prefix": "doptname",
+    "body": [
+        "doptname($1)"
+    ],
+    "description": "Returns directory attribute information.\nDOPTNAME(directory-id, nval)"
+},        
+  "doptnum": {
+    "prefix": "doptnum",
+    "body": [
+        "doptnum($1)"
+    ],
+    "description": "Returns the number of information items that are available for a directory.\nDOPTNUM(directory-id)"
+},      
+  "dosubl": {
+    "prefix": "dosubl",
+    "body": [
+        "dosubl($1)"
+    ],
+    "description": "Imports macro variables from the calling environment, and exports macro variables back to the calling environment.\nDOSUBL(x) "
+},    
+  "dread": {
+    "prefix": "dread",
+    "body": [
+        "dread($1, $2)"
+    ],
+    "description": "Returns the name of a directory member.\nDREAD(directory-id, nval)"
+},             
+  "dsname": {
+    "prefix": "dsname",
+    "body": [
+        "dsname(${1})"
+    ],
+    "description": "Returns the SAS data set name that is associated with a data set identifier.\nDSNAME(data-set-id)"
+},
+  "envlen": {
+    "prefix": "envlen",
+    "body": [
+        "envlen(${1})"
+    ],
+    "description": "Returns the length of an environment variable.\nENVLEN(argument)"
+},  
+  "exist": {
+    "prefix": "exist",
+    "body": [
+        "exist(${1})"
+    ],
+    "description": "Verifies the existence of a SAS library member\nEXIST(member-name <, member-type <, generation>>)"
+},
+  "exp": {
+    "prefix": "exp",
+    "body": [
+        "exp(${1})"
+    ],
+    "description": "Returns the value of the exponential function.\nEXP(argument)"
+},
+  "fappend": {
+    "prefix": "fappend",
+    "body": [
+        "fappend(${1})"
+    ],
+    "description": "Appends the current record to the end of an external file.\nFAPPEND(file-id <, cc>)"
+},  
+  "fclose": {
+    "prefix": "fclose",
+    "body": [
+        "fclose(${1})"
+    ],
+    "description": "Closes an external file, directory, or directory member.\nFCLOSE(file-id)"
+},   
+  "fcol": {
+    "prefix": "fcol",
+    "body": [
+        "fcol(${1})"
+    ],
+    "description": "Returns the current column position in the File Data Buffer (FDB).\nFCOL(file-id) "
+},  
+  "fcopy": {
+    "prefix": "fcopy",
+    "body": [
+        "fcopy($1,$2)"
+    ],
+    "description": "Copies records from one fileref to another fileref, and returns a value that indicates whether the records were successfully copied.\nFCOPY('fileref-1', 'fileref-2')"
+},  
+  "fdelete": {
+    "prefix": "fdelete",
+    "body": [
+        "fdelete($1,$2)"
+    ],
+    "description": "Deletes an external file or an empty directory.\nFDELETE(fileref | directory)"
+},   
+  "fetch": {
+    "prefix": "fetch",
+    "body": [
+        "fetch(${1})"
+    ],
+    "description": "Reads the next non-deleted observation from a SAS data set into the Data Set Data Vector (DDV).\nFETCH(data-set-id <, 'NOSET'>)"
+},
+  "fetchobs": {
+    "prefix": "fetchobs",
+    "body": [
+        "fetchobs($1,$2)"
+    ],
+    "description": "Reads a specified observation from a SAS data set into the Data Set Data Vector (DDV).\nFETCHOBS(data-set-id, observation-number <, options>)"
+},  
+  "fexist": {
+    "prefix": "fexist",
+    "body": [
+        "fexist($1,$2)"
+    ],
+    "description": "Verifies the existence of an external file that is associated with a fileref.\nFEXIST(fileref)"
+},    
+  "fget": {
+    "prefix": "fget",
+    "body": [
+        "fget($1,$2)"
+    ],
+    "description": "Copies data from the File Data Buffer (FDB) into a variable.\nFGET(file-id, variable <, length>)"
+},   
+  "fileexist": {
+    "prefix": "fileexist",
+    "body": [
+        "fileexist(${1})"
+    ],
+    "description": "Verifies the existence of an external file by its physical name.\nFILEEXIST(file-name)"
+},
+  "filename": {
+    "prefix": "filename",
+    "body": [
+        "filename(${1})"
+    ],
+    "description": ["Assigns or deassigns a fileref to an external file, directory, or output device.\n",
+                    "[Windows, Unix] : FILENAME(fileref, filename <,device-type> <, 'host-options'> <, directory-reference>);\n",
+                    "[z/OS]          : FILENAME(fileref, filename <device-type> <host-options>; "]
+},
+  "fileref": {
+    "prefix": "fileref",
+    "body": [
+        "fileref(${1})"
+    ],
+    "description": "Verifies whether a fileref has been assigned for the current SAS session.\nFILEREF(fileref) "
+},
+  "find": {
+    "prefix": "find",
+    "body": [
+        "find($1,$2)"
+    ],
+    "description": ["Searches for a specific substring of characters within a character string.\n",
+                    "FIND(string, substring <, modifier(s)> <, start-position>)\n",
+                    "FIND(string, substring <, start-position> <, modifier(s)>)"]
+},
+  "findc": {
+    "prefix": "findc",
+    "body": [
+        "findc($1,$2)"
+    ],
+    "description": ["Searches a string for any character in a list of characters.\n",
+                    "FINDC(string <, character-list>) \n",
+                    "FINDC(string, character-list <, modifier(s)>) \n",
+                    "FINDC(string, character-list, modifier(s) <, start-position>) \n",
+                    "FINDC(string, character-list, <start-position>, <modifier(s)>) \n"
+                  ]
+},
+  "findw": {
+    "prefix": "findw",
+    "body": [
+        "findw($1,$2)"
+    ],
+    "description": ["Returns the character position of a word in a string, or returns the number of the word in a string.\n",
+                    "FINDW(string, word <, character(s)>) \n",
+                    "FINDW(string, word, character(s), modifier(s) <, start-position>) \n",
+                    "FINDW(string, word, character(s), start-position <, modifier(s)>) \n",
+                    "FINDW(string, word, start-position <, character(s) <, modifier(s)>>)"
+    ]
+},
+  "finfo": {
+    "prefix": "finfo",
+    "body": [
+        "finfo(${1})"
+    ],
+    "description": "Returns the value of a file information item.\nFINFO(file-id, information-item)"
+},
+  "finv": {
+    "prefix": "finv",
+    "body": [
+        "finv($1,$2,$3)"
+    ],
+    "description": "Returns a quantile from the F distribution.\nFINV (p, ndf, ddf <, nc>)"
+},
+  "first": {
+    "prefix": "first",
+    "body": [
+        "first($1)"
+    ],
+    "description": "Returns the first character in a character string.\nFIRST(string) "
+},  
+  "floor": {
+    "prefix": "floor",
+    "body": [
+        "floor(${1})"
+    ],
+    "description": "Returns the largest integer that is less than or equal to the argument, fuzzed to avoid unexpected floating-point results.\nFLOOR(argument) "
+},
+  "floorz": {
+    "prefix": "floorz",
+    "body": [
+        "floorz(${1})"
+    ],
+    "description": "Returns the largest integer that is less than or equal to the argument, using zero fuzzing.\nFLOORZ(argument)"
+},
+  "fnote": {
+    "prefix": "fnote",
+    "body": [
+        "fnote(${1})"
+    ],
+    "description": "Identifies the last record that was read, and returns a value that the FPOINT function can use.\nFNOTE(file-id)"
+},  
+  "fopen": {
+    "prefix": "fopen",
+    "body": [
+        "fopen(${1})"
+    ],
+    "description": "Opens an external file and returns a file identifier value.\nFNOTE(file-id)"
+},
+  "fuzz": {
+    "prefix": "fuzz",
+    "body": [
+        "fuzz(${1})"
+    ],
+    "description": "Returns the nearest integer if the argument is within 1E−12 of that integer.\nFUZZ(argument)"
+},  
+  "foptname": {
+    "prefix": "foptname",
+    "body": [
+        "foptname($1, $2)"
+    ],
+    "description": "Returns the name of an item of information about an external file.\nFOPTNAME(file-id, nval) "
+},
+  "getoption": {
+    "prefix": "getoption",
+    "body": [
+        "getoption($1)"
+    ],
+    "description": "Returns the value of a SAS system or graphics option.\nGETOPTION(option-name <, return-value-option> <return-value-formatting-options>)"
+},   
+  "getvarc": {
+    "prefix": "getvarc",
+    "body": [
+        "getvarc($1, $2)"
+    ],
+    "description": "Returns the value of a SAS data set character variable.\nGETVARC(data-set-id, variable-number)"
+},       
+  "getvarn": {
+    "prefix": "getvarn",
+    "body": [
+        "getvarn($1, $2)"
+    ],
+    "description": "Returns the value of a SAS data set numeric variable.\nGETVARN(data-set-id, variable-number)"
+},   
+  "hbound": {
+    "prefix": "hbound",
+    "body": [
+        "hbound($1)"
+    ],
+    "description": ["Returns the upper bound of an array.\n",
+      "HBOUND<n> (array-name) \n",
+      "HBOUND(array-name, bound-n)"]
+}, 
+  "hms": {
+    "prefix": "hms",
+    "body": [
+        "hms($1, $2, $3)"
+    ],
+    "description": ["Returns a SAS time value from hour, minute, and second values.\n",
+      "HMS(hour, minute, second) "]
+},                    
+  "hour": {
+    "prefix": "hour",
+    "body": [
+        "hour(${1})"
+    ],
+    "description": "Returns the hour from a SAS time or datetime value.\nHOUR(time | datetime)"
+},
+  "ifc": {
+    "prefix": "ifc",
+    "body": [
+        "ifc($1, $2, $3)"
+    ],
+    "description": ["Returns a character value based on whether an expression is true, false, or missing.\n",
+                    "IFC(logical-expression, value-returned-when-true, value-returned-when-false<, value-returned-when-missing>)"]
+},
+  "ifn": {
+    "prefix": "ifn",
+    "body": [
+        "ifn($1, $2, $3)"
+    ],
+    "description": ["Returns a numeric value based on whether an expression is true, false, or missing. .\n",
+      "IFN(logical-expression, value-returned-when-true, value-returned-when-false<, value-returned-when-missing>)"]
+
+},
+  "index": {
+    "prefix": "index",
+    "body": [
+        "index($1, $2)"
+    ],
+    "description": ["Searches a character expression for a string of characters, and returns the position of the\n",
+                    "string's first character for the first occurrence of the string.\n",
+                    "INDEX(source, excerpt)"]
+},
+  "indexc": {
+    "prefix": "indexc",
+    "body": [
+        "indexc($1, $2)"
+    ],
+    "description": ["Searches a character expression for any of the specified characters, and returns the position of that character.\n",
+                    "INDEXC(source, excerpt-1 <, …excerpt-n>)"]  
+},
+  "indexw": {
+    "prefix": "indexw",
+    "body": [
+        "indexw($1, $2)"
+    ],
+    "description": ["Searches a character expression for a string that is specified as a word, and returns the position of the \n",
+                    "first character in the word.\n",
+                    "INDEXW(source, excerpt <, delimiters>)"]
+},
+  "input": {
+    "prefix": "input",
+    "body": [
+        "input($1, $2)"
+    ],
+    "description": ["Returns the value that is produced when SAS converts an expression by using the specified informat.\n",
+                    "INPUT(source, <? | ??> informat.)"]
+},
+  "inputc": {
+    "prefix": "inputc",
+    "body": [
+        "inputc($1, $2)"
+    ],
+    "description": ["Enables you to specify a character informat at run time.\n",
+                    "INPUTC(source, informat <, w>)"]
+},
+  "inputn": {
+    "prefix": "inputn",
+    "body": [
+        "inputn($1, $2)"
+    ],
+    "description": "Enables you to specify a numeric informat at run time.\nINPUTN(source, informat <, w<, d>>) "
+},
+  "int": {
+    "prefix": "int",
+    "body": [
+        "int(${1})"
+    ],
+    "description": "Returns the integer value, fuzzed to avoid unexpected floating-point results.\nINT(argument) "
+},
+  "intcindex": {
+    "prefix": "intcindex",
+    "body": [
+        "intcindex($1)"
+    ],
+    "description": "Returns the cycle index when a date, time, or datetime interval and value are specified.\nINTCINDEX(interval <<multiple.<shift-index>>>, date-time-value) "
+},  
+  "intck": {
+    "prefix": "intck",
+    "body": [
+        "intck($1, $2, $3)"
+    ],
+    "description": ["Returns the number of interval boundaries of a given kind that lie between two dates, times, or datetime values.\n",
+                    "INTCK(interval <multiple> <.shift-index>, start-date, end-date, <'method'>)\n",
+                    "INTCK(custom-interval, start-date, end-date, <'method'>)"]
+},
+  "intnx": {
+    "prefix": "intnx",
+    "body": [
+        "intnx(${1})"
+    ],
+    "description":["Increments a date, time, or datetime value by a given time interval, and returns a date, time, or datetime value.\n",
+                   "INTNX(interval <multiple><.shift-index>, start-from, increment <, 'alignment'>)\n",
+                   "INTNX(custom-interval, start-from, increment <, 'alignment'>)"]
+},
+  "is8601_convert": {
+    "prefix": "is8601_convert",
+    "body": [
+        "call is8601_convert(${1})"
+    ],
+    "description": ["Converts an ISO 8601 interval to datetime and duration values, or converts datetime and duration values to an ISO 8601 interval.\n",
+                    "CALL IS8601_CONVERT(convert-from, convert-to, <from-variables>, <to-variables>, <date-time-replacements>);"]
+},
+  "lag": {
+    "prefix": "lag",
+    "body": [
+        "lag(${1})"
+    ],
+    "description": ["Returns values from a queue.\n",
+                    "LAG <n> (argument)"]
+},
+  "lbound": {
+    "prefix": "lbound",
+    "body": [
+        "lbound(${1})"
+    ],
+    "description": ["Returns the lower bound of an array.\n",
+                    "LBOUND <n> (array-name)\n",
+                    "LBOUND(array-name, bound-n) "]
+},     
+  "left": {
+    "prefix": "left",
+    "body": [
+        "left(${1})"
+    ],
+    "description": "Left-aligns a character string.\nLEFT(argument) "
+},
+  "length": {
+    "prefix": "length",
+    "body": [
+        "length(${1})"
+    ],
+    "description": ["Returns the length of a non-blank character string, excluding trailing blanks, \n",
+                    "and returns 1 for a blank character string.\n",
+                    "LENGTH(string)"
+                   ]
+},
+  "lengthc": {
+    "prefix": "lengthc",
+    "body": [
+        "lengthc(${1})"
+    ],
+    "description": "Returns the length of a character string, including trailing blanks.\nLENGTHC(string)"
+},
+  "lengthm": {
+    "prefix": "lengthm",
+    "body": [
+        "lengthm(${1})"
+    ],
+    "description": "Returns the amount of memory (in bytes) that is allocated for a character string.\nLENGTHM(string)"
+},
+  "lengthn": {
+    "prefix": "lengthn",
+    "body": [
+        "lengthn(${1})"
+    ],
+    "description": "Returns the length of a character string, excluding trailing blanks.\nLENGTHN(string)"
+},
+  "libname": {
+    "prefix": "libname",
+    "body": [
+        "libname($1)"
+    ],
+    "description": "Assigns or clears a libref for a SAS library.\nLIBNAME(libref <, SAS-library <, engine <, options>>>)"
+},  
+  "libref": {
+    "prefix": "libref",
+    "body": [
+        "libref($1)"
+    ],
+    "description": "Verifies that a libref has been assigned.\nLIBREF(libref)"
+},    
+  "log": {
+    "prefix": "log",
+    "body": [
+        "log(${1})"
+    ],
+    "description": "Returns the natural (base e) logarithm.\nLOG(argument) "
+},
+  "log10": {
+    "prefix": "log10",
+    "body": [
+        "log10(${1})"
+    ],
+    "description": "Returns the logarithm to the base 10.\nLOG10(argument)"
+},
+  "log1px": {
+    "prefix": "log1px",
+    "body": [
+        "log1px(${1})"
+    ],
+    "description": "Returns the logarithm to the base 10.\nLOG10(argument) "
+},
+  "log2": {
+    "prefix": "log2",
+    "body": [
+        "log2(${1})"
+    ],
+    "description": "Returns the logarithm to the base 2.\nLOG2(argument) "
+},
+  "logbeta": {
+    "prefix": "logbeta",
+    "body": [
+        "logbeta(${1})"
+    ],
+    "description": "Returns the logarithm of the beta function.\nLOGBETA(a, b)"
+},
+  "lowcase": {
+    "prefix": "lowcase",
+    "body": [
+        "lowcase(${1})"
+    ],
+    "description": "Converts all uppercase single-width English alphabet letters in an argument to lowercase.\nLOWCASE(argument)"
+},  
+  "max": {
+    "prefix": "max",
+    "body": [
+        "max(${1})"
+    ],
+    "description": "Returns the largest value.\nMAX(argument-1 <, argument-2, ...>)"
+},
+  "mdy": {
+    "prefix": "mdy",
+    "body": [
+        "mdy($1, $2, $3)"
+    ],
+    "description": "Returns a SAS date value from month, day, and year values.\nMDY(month, day, year)"
+},
+  "mean": {
+    "prefix": "mean",
+    "body": [
+        "mean(${1})"
+    ],
+    "description": "Returns the arithmetic mean (average).\nMEAN(argument-1 <, ... argument-n>)"
+},
+  "median": {
+    "prefix": "median",
+    "body": [
+        "median(${1})"
+    ],
+    "description": "Returns the median value.\nMEDIAN(value–1 <, value–2, ...>)"
+},
+  "min": {
+    "prefix": "min",
+    "body": [
+        "min(${1})"
+    ],
+    "description": "Returns the smallest value.\nMIN(argument-1 <, argument-2, ...>)"
+},
+  "minute": {
+    "prefix": "minute",
+    "body": [
+        "minute(${1})"
+    ],
+    "description": "Returns the minute from a SAS time or datetime value.\nMINUTE(time | datetime) "
+},
+  "missing": {
+    "prefix": "missing",
+    "body": [
+        "call missing(${1})"
+    ],
+    "description": "Assigns missing values to the specified character or numeric variables.\nCALL MISSING(variable-name-1 <, variable-name-2, ...>);"
+},
+  "missing2": {
+    "prefix": "missing2",
+    "body": [
+        "missing(${1})"
+    ],
+    "description": "Returns a numeric result that indicates whether the argument contains a missing value.\nMISSING(numeric-expression | character-expression)"
+},
+  "mod": {
+    "prefix": "mod",
+    "body": [
+        "mod(${1})"
+    ],
+    "description": "Returns the remainder from the division of the first argument by the second argument, fuzzed to avoid most unexpected floating-point results.\nMOD(argument-1, argument-2)"
+},
+  "n": {
+    "prefix": "n",
+    "body": [
+        "n(${1})"
+    ],
+    "description": "Returns the number of nonmissing numeric values.\nN(argument-1 <, ... argument-n>) "
+},
+  "nmiss": {
+    "prefix": "nmiss",
+    "body": [
+        "nmiss(${1})"
+    ],
+    "description": "Returns the number of missing numeric values.\nNMISS(argument-1 <,... argument-n>) "
+},
+  "open": {
+    "prefix": "open",
+    "body": [
+        "open(${1})"
+    ],
+    "description": "Opens a SAS data set.\nOPEN(<data-set-name <, mode <, generation-number <, type>>>>) "
+},
+  "ordinal": {
+    "prefix": "ordinal",
+    "body": [
+        "ordinal(${1})"
+    ],
+    "description": "Returns the kth smallest of the missing and nonmissing values.\nORDINAL(k, argument-1, argument-2 <, ...argument-n>)"
+},
+  "pathname": {
+    "prefix": "pathname",
+    "body": [
+        "pathname(${1})"
+    ],
+     "description": "Returns the physical name of an external file or a SAS library, or returns a blank.\nPATHNAME((fileref | libref) <, search-ref>)"
+},  
+  "propcase": {
+    "prefix": "propcase",
+    "body": [
+        "propcase(${1})"
+    ],
+    "description": "Converts all words in an argument to proper case.\nPROPCASE(argument <, delimiters>)"
+},
+  "prxchange2": {
+    "prefix": "prxchange2",
+    "body": [
+        "call prxchange(${1})"
+    ],
+    "description": "Performs a pattern-matching replacement."
+},
+  "prxchange": {
+    "prefix": "prxchange",
+    "body": [
+        "prxchange($1,$2,$3)"
+    ],
+    "description": "Performs a pattern-matching replacement.\nPRXCHANGE(perl-regular-expression | regular-expression-id, times, source) "
+},
+  "prxdebug": {
+    "prefix": "prxdebug",
+    "body": [
+        "call prxdebug(${1})"
+    ],
+    "description": "Enables Perl regular expressions in a DATA step to send debugging output to the SAS log.\nCALL PRXDEBUG(on-off)"
+},
+  "prxfree": {
+    "prefix": "prxfree",
+    "body": [
+        "call prxfree(${1})"
+    ],
+    "description": "Frees memory that was allocated for a Perl regular expression.\nCALL PRXFREE(regular-expression-id)"
+},
+  "prxmatch": {
+    "prefix": "prxmatch",
+    "body": [
+        "prxmatch(${1})"
+    ],
+    "description": "Searches for a pattern match and returns the position at which the pattern is found.\nPRXMATCH(regular-expression-id | perl-regular-expression, source)"
+},
+  "prxnext": {
+    "prefix": "prxnext",
+    "body": [
+        "call prxnext($1,$2,$3,$4,$5,$6)"
+    ],
+    "description": "Returns the position and length of a substring that matches a pattern and iterates over multiple matches within one string.\nCALL PRXNEXT(regular-expression-id, start, stop, source, position, length)"
+},
+  "prxparen": {
+    "prefix": "prxparen",
+    "body": [
+        "prxparen(${1})"
+    ],
+    "description": "Returns the last bracket match for which there is a match in a pattern.\nPRXPAREN(regular-expression-id) "
+},
+  "prxparse": {
+    "prefix": "prxparse",
+    "body": [
+        "prxparse(${1})"
+    ],
+    "description": "Compiles a Perl regular expression (PRX) that can be used for pattern matching of a character value.\nregular-expression-id=PRXPARSE(perl-regular-expression)"
+},
+  "prxposn2": {
+    "prefix": "prxposn2",
+    "body": [
+        "call prxposn($1,$2,$3)"
+    ],
+    "description": "Returns the start position and length for a capture buffer. \nCALL PRXPOSN(regular-expression-id, capture-buffer, start <, length>)"
+},
+  "prxposn": {
+    "prefix": "prxposn",
+    "body": [
+        "prxposn($1,$2,$3)"
+    ],
+    "description": "Returns a character string that contains the value for a capture buffer.\nPRXPOSN(regular-expression-id, capture-buffer, source) "
+},
+  "prxsubstr": {
+    "prefix": "prxsubstr",
+    "body": [
+        "call prxsubstr($1,$2,$3)"
+    ],
+    "description": "Returns the position and length of a substring that matches a pattern.\nCALL PRXSUBSTR(regular-expression-id, source, position <, length>)"
+},
+  "ptrlongadd": {
+    "prefix": "ptrlongadd",
+    "body": [
+        "ptrlongadd(${1})"
+    ],
+    "description": "Returns the pointer address as a character variable on 32-bit and 64-bit platforms.\nPTRLONGADD(pointer<, amount>)"
+},
+  "put": {
+    "prefix": "put",
+    "body": [
+        "put($1,$2)"
+    ],
+    "description": "Returns a value using a specified format.\nPUT(source, format.) "
+},
+  "putc": {
+    "prefix": "putc",
+    "body": [
+        "putc($1,$2)"
+    ],
+    "description": "Enables you to specify a character format at run time.\nPUTC(value, format-specification <, w>)"
+},
+  "putn": {
+    "prefix": "putn",
+    "body": [
+        "putn($1,$2)"
+    ],
+    "description": "Enables you to specify a numeric format at run time.\nPUTN(value, format-specification <, w <, d>>)"
+},
+  "quote": {
+    "prefix": "quote",
+    "body": [
+        "quote($1,$2)"
+    ],
+    "description": "Adds double quotation marks to a character value.\nQUOTE(argument-1, argument-2)"
+},  
+  "range": {
+    "prefix": "range",
+    "body": [
+        "range($1)"
+    ],
+    "description": "Returns the range of the nonmissing values.\nRANGE(argument-1 <, ...argument-n>)"
+},    
+  "rank": {
+    "prefix": "rank",
+    "body": [
+        "rank(${1})"
+    ],
+    "description": "Returns the position of a character in the ASCII collating sequence.\nRANK(x)"
+},
+  "ranuni": {
+    "prefix": "ranuni",
+    "body": [
+        "ranuni(${1})"
+    ],
+    "description": "Returns a random variate from a uniform distribution.\nRANUNI(seed)"
+},
+  "rename": {
+    "prefix": "rename",
+    "body": [
+        "rename($1,$2)"
+    ],
+    "description": "Renames a member of a SAS library, an entry in a SAS catalog, an external file, or a directory.\nRENAME(old-name, new-name <, type <, description <, password <, generation>>>>) "
+},
+  "repeat": {
+    "prefix": "repeat",
+    "body": [
+        "repeat($1,$2)"
+    ],
+    "description": "Returns a character value that consists of the first argument repeated n+1 times.\nREPEAT(argument, n)"
+},  
+  "resolve": {
+    "prefix": "resolve",
+    "body": [
+        "resolve($1)"
+    ],
+    "description": "Returns the resolved value of the argument after the argument has been processed by the macro facility.\nRESOLVE(argument) "
+},  
+  "reverse": {
+    "prefix": "reverse",
+    "body": [
+        "reverse($1)"
+    ],
+    "description": "Reverses a character string.\nREVERSE(argument)"
+},    
+  "rewind": {
+    "prefix": "rewind",
+    "body": [
+        "rewind($1)"
+    ],
+    "description": "Positions the data set pointer at the beginning of a SAS data set.\nREWIND(data-set-id)"
+},   
+  "right": {
+    "prefix": "right",
+    "body": [
+        "right($1)"
+    ],
+    "description": "Right aligns a character expression.\nRIGHT(argument)"
+},   
+  "round": {
+    "prefix": "round",
+    "body": [
+        "round(${1})"
+    ],
+    "description": "Rounds the first argument to the nearest multiple of the second argument, or to the nearest integer when the second argument is omitted.\nROUND(argument <, rounding-unit>)"
+},
+  "rounde": {
+    "prefix": "rounde",
+    "body": [
+        "rounde(${1})"
+    ],
+    "description": ["Rounds the first argument to the nearest multiple of the second argument, ",
+                    "and returns an even multiple when the first argument is halfway between the two nearest multiples.\n",
+                    "ROUNDE(argument <, rounding-unit>)"
+                   ]
+},
+  "roundz": {
+    "prefix": "roundz",
+    "body": [
+        "roundz(${1})"
+    ],
+    "description": "Rounds the first argument to the nearest multiple of the second argument, using zero fuzzing.\nROUNDZ(argument <, rounding-unit>) "
+},
+  "saving": {
+    "prefix": "saving",
+    "body": [
+        "saving(${1})"
+    ],
+    "description": ["Returns the balance of a periodic savings by using variable interest rates.\n",
+                    "SAVINGS(base-date, initial-deposit-date, deposit-amount, deposit-number, ",
+                    "deposit-interval, compounding-interval, date-1, rate-2 <, date-2, rate-2, ...>) "]
+},
+  "scan2": {
+    "prefix": "scan2",
+    "body": [
+        "call scan(${1})"
+    ],
+    "description": "Returns the position and length of the nth word from a character string.\nCALL SCAN(<string>, count, position, length <, <character-list> <, <modifier(s)>>>)"
+},
+  "scan": {
+    "prefix": "scan",
+    "body": [
+        "scan($1,$2)"
+    ],
+    "description": "Returns the nth word from a character string.\nSCAN(string, count <, character-list <, modifier>>) "
+},
+  "sleep": {
+    "prefix": "sleep",
+    "body": [
+        "sleep($1)"
+    ],
+    "description": "Suspends the execution of a program that invokes this function for a period of time.\nSLEEP(n <, unit>) "
+},  
+  "smallest": {
+    "prefix": "smallest",
+    "body": [
+        "smallest($1,$2)"
+    ],
+    "description": "Returns the kth smallest nonmissing value.\nSMALLEST(k, value-1 <, value-2...>)"
+},        
+  "sortc": {
+    "prefix": "sortc",
+    "body": [
+        "call sortc(${1})"
+    ],
+    "description": "Sorts the values of character arguments.\nCALL SORTC(variable-1 <, …, variable-n>)"
+},
+  "sortn": {
+    "prefix": "sortn",
+    "body": [
+        "call sortn(${1})"
+    ],
+    "description": "Sorts the values of numeric arguments.\nCALL SORTN(variable-1 <, …, variable-n>)"
+},
+  "soundex": {
+    "prefix": "soundex",
+    "body": [
+        "soundex(${1})"
+    ],
+    "description": "Encodes a string to facilitate searching.\nSOUNDEX(argument)"
+},
+  "spedis": {
+    "prefix": "spedis",
+    "body": [
+        "spedis($1,$2)"
+    ],
+    "description": "Determines the likelihood of two words matching, expressed as the asymmetric spelling distance between the two words.\nSPEDIS(query, keyword) "
+},
+"sqrt": {
+  "prefix": "sqrt",
+  "body": [
+      "sqrt($1,$2)"
+  ],
+  "description": "Returns the square root of a value.\nSQRT(argument)"
+}, 
+  "std": {
+    "prefix": "std",
+    "body": [
+        "std(${1})"
+    ],
+    "description": "Returns the standard deviation of the nonmissing arguments.\nSTD(argument-1, argument-2 <, ... argument-n>)"
+},
+  "stderr": {
+    "prefix": "stderr",
+    "body": [
+        "Returns the standard error of the mean of the nonmissing arguments.\nSTDERR(argument-1, argument-2 <, ...argument-n>)"
+    ],
+    "description": "stderr-function"
+},
+  "strip": {
+    "prefix": "strip",
+    "body": [
+        "strip(${1})"
+    ],
+    "description": "Returns a character string with all leading and trailing blanks removed.\nSTRIP(string)"
+},
+  "subpad": {
+    "prefix": "subpad",
+    "body": [
+        "subpad($1,$2)"
+    ],
+    "description": "Returns a substring that has a length that you specify, using blank padding if necessary.\nSUBPAD(string, position <, length>)"
+},  
+  "substr": {
+    "prefix": "substr",
+    "body": [
+        "substr(${1})"
+    ],
+    "description": "Replaces character value contents.\nSUBSTR(variable, position <, length>)=characters-to-replace"
+},
+  "substr2": {
+    "prefix": "substr2",
+    "body": [
+        "$1=substr($2,$3)"
+    ],
+    "description": "SUBSTR (right of =) Function.Extracts a substring from an argument.\n<variable=>SUBSTR(string, position <, length>) "
+},  
+  "substrn": {
+    "prefix": "substrn",
+    "body": [
+        "substrn($1,$2)"
+    ],
+    "description": "Returns a substring, allowing a result with a length of zero.\nSUBSTRN(string, position <, length>)"
+},
+  "sum": {
+    "prefix": "sum",
+    "body": [
+        "sum($1,$2)"
+    ],
+    "description": "Returns the sum of the nonmissing arguments.\nSUM(argument-1 <, argument-2, ...>)"
+},
+  "symexist": {
+    "prefix": "symexist",
+    "body": [
+        "symexist(${1})"
+    ],
+    "description": "Returns an indication of the existence of a macro variable.\nSYMEXIST(argument)"
+},  
+  "symget": {
+    "prefix": "symget",
+    "body": [
+        "symget(${1})"
+    ],
+    "description": "Returns the value of a macro variable during DATA step execution.\nSYMGET(argument)"
+},
+  "symglobl": {
+    "prefix": "symglobl",
+    "body": [
+        "symglobl(${1})"
+    ],
+    "description": "Returns an indication of whether a macro variable is in global scope to the DATA step during DATA step execution.\nSYMGLOBL(argument) "
+},
+  "symlocal": {
+    "prefix": "symlocal",
+    "body": [
+        "symlocal(${1})"
+    ],
+    "description": "Returns an indication of whether a macro variable is in local scope to the DATA step during DATA step execution.\nSYMLOCAL(argument)"
+},
+  "symput": {
+    "prefix": "symput",
+    "body": [
+        "call symput(${1})"
+    ],
+    "description": "Assigns DATA step information to a macro variable.\nCALL SYMPUT(argument-1, argument-2)"
+},
+  "symputx": {
+    "prefix": "symputx",
+    "body": [
+        "call symputx(${1})"
+    ],
+    "description": "Assigns a value to a macro variable and removes both leading and trailing blanks.\nCALL SYMPUTX(macro-variable, value <, symbol-table>)"
+},
+  "sysexist": {
+    "prefix": "sysexist",
+    "body": [
+        "sysexist(${1})"
+    ],
+    "description": "Returns a value that indicates whether an operating-environment variable exists in your environment.\nSYSEXIST(argument) "
+},
+  "sysget": {
+    "prefix": "sysget",
+    "body": [
+        "sysget(${1})"
+    ],
+    "description": ["Returns the value of the specified operating-environment variable.\n",
+                    "Windows and UNIX: SYSGET('environment-variable')",
+                    "z/OS:             SYSGET(operating-environment-variable)"]
+},
+  "sysmsg": {
+    "prefix": "sysmsg",
+    "body": [
+        "sysmsg(${1})"
+    ],
+    "description": ["Returns error or warning message text from processing the last data set or external file function.\n",
+                    "SYSMSG()"]
+}, 
+  "sysparm": {
+    "prefix": "sysparm",
+    "body": [
+        "sysparm(${1})"
+    ],
+    "description": ["Returns the system parameter string.\n",
+                    "SYSPARM()"]
+}, 
+  "sysrc": {
+    "prefix": "sysrc",
+    "body": [
+        "sysrc(${1})"
+    ],
+    "description": ["Returns a system error number.\n",
+                    "SYSRC()"]
+},         
+  "time": {
+    "prefix": "time",
+    "body": [
+        "time()"
+    ],
+    "description": ["Returns the current time of day as a numeric SAS time value. \n",
+                    "TIME()"]
+},
+  "timepart": {
+    "prefix": "timepart",
+    "body": [
+        "timepart($1)"
+    ],
+    "description": ["Extracts a time value from a SAS datetime value.\n",
+                    "TIMEPART(datetime) "]
+},        
+  "today": {
+    "prefix": "today",
+    "body": [
+        "today(${1})"
+    ],
+    "description": "Returns the current date as a numeric SAS date value."
+},
+  "translate": {
+    "prefix": "translate",
+    "body": [
+        "translate(${1})"
+    ],
+    "description": "Replaces specific characters in a character expression.\nTRANSLATE(source, to-1, from-1 <, ...to-n, from-n>)"
+},
+  "transtrn": {
+    "prefix": "transtrn",
+    "body": [
+        "transtrn($1,$2,$3)"
+    ],
+    "description": "Replaces or removes all occurrences of a substring in a character string.\nTRANSTRN(source, target, replacement) "
+},
+  "tranwrd": {
+    "prefix": "tranwrd",
+    "body": [
+        "tranwrd($1,$2,$3)"
+    ],
+    "description": "Replaces all occurrences of a substring in a character string.\nTRANWRD(source, target, replacement)"
+},
+  "trim": {
+    "prefix": "trim",
+    "body": [
+        "trim(${1})"
+    ],
+    "description": "Removes trailing blanks from a character string and returns one blank if the string is missing.\nTRIM(argument) "
+},
+  "trimn": {
+    "prefix": "trimn",
+    "body": [
+        "trimn(${1})"
+    ],
+    "description": "Removes trailing blanks from character expressions and returns a string with a length of zero if the expression is missing.\nTRIMN(argument)"
+},
+  "trunc": {
+    "prefix": "trunc",
+    "body": [
+        "trunc($1, $2)"
+    ],
+    "description": "Truncates a numeric value to a specified number of bytes.\nTRUNC(number, length)"
+},
+  "typeof": {
+    "prefix": "typeof",
+    "body": [
+        "typeof($1)"
+    ],
+    "description": "Returns a value that indicates whether the argument is character or numeric.\nTYPEOF(column) "
+},  
+  "upcase": {
+    "prefix": "upcase",
+    "body": [
+        "upcase(${1})"
+    ],
+    "description": "Converts all lowercase single-width English alphabet letters in an argument to uppercase.\nUPCASE(argument)"
+},
+  "varfmt": {
+    "prefix": "varfmt",
+    "body": [
+        "varfmt($1, $2)"
+    ],
+    "description": "Returns the format that is assigned to a SAS data set variable.\nVARFMT(data-set-id, variable-number)"
+},  
+  "varinfmt": {
+    "prefix": "varinfmt",
+    "body": [
+        "varinfmt($1, $2)"
+    ],
+    "description": "Returns the informat that is assigned to a SAS data set variable.\nVARINFMT(data-set-id, variable-number)"
+},    
+  "varlabel": {
+    "prefix": "varlabel",
+    "body": [
+        "varlabel($1, $2)"
+    ],
+    "description": "Returns the label that is assigned to a SAS data set variable.\nVARLABEL(data-set-id, variable-number) "
+},  
+  "varlen": {
+    "prefix": "varlen",
+    "body": [
+        "varlen($1, $2)"
+    ],
+    "description": "Returns the length of a SAS data set variable.\nVARLEN(data-set-id, variable-number) "
+},
+  "varname": {
+    "prefix": "varname",
+    "body": [
+        "varname($1, $2)"
+    ],
+    "description": "Returns the name of a SAS data set variable.\nVARNAME(data-set-id, variable-number)"
+},
+  "varnum": {
+    "prefix": "varnum",
+    "body": [
+        "varnum($1, $2)"
+    ],
+    "description": "Returns the number of a variable's position in a SAS data set.\nVARNUM(data-set-id, variable-name)"
+},
+  "varray": {
+    "prefix": "varray",
+    "body": [
+        "varray(${1})"
+    ],
+    "description": "Returns a value that indicates whether the specified name is an array.\nVARRAY(name)"
+},
+  "varrayx": {
+    "prefix": "varrayx",
+    "body": [
+        "varrayx(${1})"
+    ],
+    "description": "Returns a value that indicates whether the value of the specified argument is an array.\nVARRAYX(expression)"
+},
+  "vartype": {
+    "prefix": "vartype",
+    "body": [
+        "vartype($1, $2)"
+    ],
+    "description": "Returns the data type of a SAS data set variable.\nVARTYPE(data-set-id, variable-number) "
+},
+  "verify": {
+    "prefix": "verify",
+    "body": [
+        "verify($1, $2)"
+    ],
+    "description": "Returns the position of the first character in a string that is not in specified data strings.\nVERIFY(source, excerpt-1 <, ...excerpt-n>) "
+},
+  "vformat": {
+    "prefix": "vformat",
+    "body": [
+        "vformat(${1})"
+    ],
+    "description": "Returns the format that is associated with the specified variable.\nVFORMAT(variable)"
+},
+  "vformatd": {
+    "prefix": "vformatd",
+    "body": [
+        "vformatd(${1})"
+    ],
+    "description": "Returns the decimal value of the format that is associated with the specified variable.\nVFORMATD(variable)"
+},
+  "vformatdx": {
+    "prefix": "vformatdx",
+    "body": [
+        "vformatdx(${1})"
+    ],
+    "description": "Returns the decimal value of the format that is associated with the value of the specified argument.\nVFORMATDX(expression)"
+},
+  "vformatn": {
+    "prefix": "vformatn",
+    "body": [
+        "vformatn(${1})"
+    ],
+    "description": "Returns the format name that is associated with the specified variable.\nVFORMATN(variable)"
+},
+  "vformatnx": {
+    "prefix": "vformatnx",
+    "body": [
+        "vformatnx(${1})"
+    ],
+    "description": "Returns the format name that is associated with the value of the specified argument.\nVFORMATNX(expression)"
+},
+  "vformatw": {
+    "prefix": "vformatw",
+    "body": [
+        "vformatw(${1})"
+    ],
+    "description": "Returns the format width that is associated with the specified variable.\nVFORMATW(variable)"
+},
+  "vformatwx": {
+    "prefix": "vformatwx",
+    "body": [
+        "vformatwx(${1})"
+    ],
+    "description": "Returns the format width that is associated with the value of the specified argument.\nVFORMATWX(expression)"
+},
+  "vformatx": {
+    "prefix": "vformatx",
+    "body": [
+        "vformatx(${1})"
+    ],
+    "description": "Returns the format that is associated with the value of the specified argument.\nVFORMATX(expression) "
+},
+  "vinarray": {
+    "prefix": "vinarray",
+    "body": [
+        "vinarray(${1})"
+    ],
+    "description": "Returns a value that indicates whether the specified variable is a member of an array.\nVINARRAY(variable)"
+},
+  "vinarrayx": {
+    "prefix": "vinarrayx",
+    "body": [
+        "vinarrayx(${1})"
+    ],
+    "description": "Returns a value that indicates whether the value of the specified argument is a member of an array.\nVINARRAYX(expression)"
+},
+  "vinformat": {
+    "prefix": "vinformat",
+    "body": [
+        "vinformat(${1})"
+    ],
+    "description": "Returns the informat that is associated with the specified variable.\nVINFORMAT(variable)"
+},
+  "vinformatd": {
+    "prefix": "vinformatd",
+    "body": [
+        "vinformatd(${1})"
+    ],
+    "description": "Returns the decimal value of the informat that is associated with the specified variable.\nVINFORMATD(variable)"
+},
+  "vinformatdx": {
+    "prefix": "vinformatdx",
+    "body": [
+        "vinformatdx(${1})"
+    ],
+    "description": "Returns the decimal value of the informat that is associated with the value of the specified variable.\nVINFORMATDX(expression)"
+},
+  "vinformatn": {
+    "prefix": "vinformatn",
+    "body": [
+        "vinformatn(${1})"
+    ],
+    "description": "Returns the informat name that is associated with the specified variable.\nVINFORMATN(variable)"
+},
+  "vinformatnx": {
+    "prefix": "vinformatnx",
+    "body": [
+        "vinformatnx(${1})"
+    ],
+    "description": "Returns the informat name that is associated with the value of the specified argument.\nVINFORMATNX(expression)"
+},
+  "vinformatw": {
+    "prefix": "vinformatw",
+    "body": [
+        "vinformatw(${1})"
+    ],
+    "description": "Returns the informat width that is associated with the specified variable.\nVINFORMATW(variable)"
+},
+  "vinformatwx": {
+    "prefix": "vinformatwx",
+    "body": [
+        "vinformatwx(${1})"
+    ],
+    "description": "Returns the informat width that is associated with the value of the specified argument.\nVINFORMATWX(expression)"
+},
+  "vinformatx": {
+    "prefix": "vinformatx",
+    "body": [
+        "vinformatx(${1})"
+    ],
+    "description": "Returns the informat that is associated with the value of the specified argument.\nVINFORMATX(expression)"
+},
+  "vlabel": {
+    "prefix": "vlabel",
+    "body": [
+        "vlabel(${1})"
+    ],
+    "description": "Returns the label that is associated with the specified variable.\nVLABEL(variable)"
+},
+  "vlabelx": {
+    "prefix": "vlabelx",
+    "body": [
+        "vlabelx(${1})"
+    ],
+    "description": "Returns the label that is associated with the value of the specified argument.\nVLABELX(expression)"
+},
+  "vlength": {
+    "prefix": "vlength",
+    "body": [
+        "vlength(${1})"
+    ],
+    "description": "Returns the compile-time (allocated) size of the specified variable.\nVLENGTH(variable) "
+},
+  "vlengthx": {
+    "prefix": "vlengthx",
+    "body": [
+        "vlengthx(${1})"
+    ],
+    "description": "Returns the compile-time (allocated) size for the variable with a name that is the same as the value of the argument.\nVLENGTHX(expression)"
+},
+  "vname2": {
+    "prefix": "vname2",
+    "body": [
+        "call vname(${1})"
+    ],
+    "description": "Assigns a variable name as the value of a specified variable.\nCALL VNAME(variable-1, variable-2)"
+},
+  "vname": {
+    "prefix": "vname",
+    "body": [
+        "vname(${1})"
+    ],
+    "description": "Returns the name of the specified variable.\nVNAME(variable)"
+},
+  "vnamex": {
+    "prefix": "vnamex",
+    "body": [
+        "vnamex(${1})"
+    ],
+    "description": "Validates the value of the specified argument as a variable name.\nVNAMEX(expression)"
+},
+  "vnext": {
+    "prefix": "vnext",
+    "body": [
+        "call vnext($1, $2)"
+    ],
+    "description": "Returns the name, type, and length of a variable that is used in a DATA step.\nCALL VNEXT(variable-name <, variable-type <, variable-length> >)"
+},
+  "vtype": {
+    "prefix": "vtype",
+    "body": [
+        "vtype(${1})"
+    ],
+    "description": "Returns the type (character or numeric) of the specified variable.\nVTYPE(variable)"
+},
+  "vtypex": {
+    "prefix": "vtypex",
+    "body": [
+        "vtypex(${1})"
+    ],
+    "description": "Returns the type (character or numeric) for the value of the specified argument.\nVTYPEX(expression)"
+},
+  "vvalue": {
+    "prefix": "vvalue",
+    "body": [
+        "vvalue(${1})"
+    ],
+    "description": "Returns the formatted value that is associated with the variable that you specify.\nVVALUE(variable)"
+},
+  "vvaluex": {
+    "prefix": "vvaluex",
+    "body": [
+        "vvaluex(${1})"
+    ],
+    "description": "Returns the formatted value that is associated with the argument that you specify.\nVVALUEX(expression)"
+},
+  "week": {
+    "prefix": "week",
+    "body": [
+        "week(${1})"
+    ],
+    "description": "Returns the week-number value.\nWEEK(<sas-date>, <'descriptor'>)"
+},
+  "weekday": {
+    "prefix": "weekday",
+    "body": [
+        "weekday(${1})"
+    ],
+    "description": "From a SAS date value, returns an integer that corresponds to the day of the week.\nWEEKDAY(date)"
+},
+  "whichc": {
+    "prefix": "whichc",
+    "body": [
+        "whichc($1, $2)"
+    ],
+    "description": "Searches for a character value that is equal to the first argument, and returns the index of the first matching value.\nWHICHC(string, value-1 <, value-2, ...>)"
+},
+  "whichn": {
+    "prefix": "whichn",
+    "body": [
+        "whichn($1, $2)"
+    ],
+    "description": "Searches for a numeric value that is equal to the first argument, and returns the index of the first matching value.\nWHICHN(argument, value-1 <, value-2, ...>)"
+},
+  "year": {
+    "prefix": "year",
+    "body": [
+        "year(${1})"
+    ],
+    "description": "Returns the year from a SAS date value.\nYEAR(date)"
+},
+  "yieldp": {
+    "prefix": "yieldp",
+    "body": [
+        "yieldp($1, $2, $3, $4, $5, $6)"
+    ],
+    "description": "Returns the yield-to-maturity for a periodic cash flow stream, such as a bond.\nYIELDP(A, c, n, K, k0, p)"
+},
+  "yrdif": {
+    "prefix": "yrdif",
+    "body": [
+        "yrdif($1, $2)"
+    ],
+    "description": "Returns the difference in years between two dates according to specified day count conventions; returns a person’s age.\nYRDIF(start-date, end-date, < basis>)"
+}
 }
